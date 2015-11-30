@@ -1,0 +1,119 @@
+﻿Build started 29/09/2015 13:58:03.
+     1>Project "E:\AULAS DE CG\backup fisica - nunca delete - roda direto\TudoQueEuSei - fisica\tudoqeusei\tudoqeusei.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Stuff\Programas\Visual Studio 12\VC\bin\CL.exe /c /I../../external_dependencies/glew/include /I../../external_dependencies/freeglut/include /I../../external_dependencies/glm /I../../external_dependencies/Eigen /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt source\camera.cpp source\constraint.cpp source\glsl_wrapper.cpp source\main.cpp source\math_headers.cpp source\mesh.cpp source\primitive.cpp source\simulation.cpp
+         camera.cpp
+     1>source\camera.cpp(23): warning C4305: '=' : truncation from 'double' to 'float'
+     1>source\camera.cpp(91): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>source\camera.cpp(93): warning C4305: '=' : truncation from 'double' to 'float'
+     1>source\camera.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>source\camera.cpp(130): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         constraint.cpp
+         glsl_wrapper.cpp
+     1>source\glsl_wrapper.cpp(187): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Stuff\Programas\Visual Studio 12\VC\include\stdio.h(211) : see declaration of 'fopen'
+         main.cpp
+         math_headers.cpp
+         mesh.cpp
+     1>source\mesh.cpp(282): warning C4018: '<' : signed/unsigned mismatch
+     1>source\mesh.cpp(300): warning C4018: '<' : signed/unsigned mismatch
+     1>source\mesh.cpp(315): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>source\mesh.cpp(353): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>source\mesh.cpp(473): warning C4018: '<' : signed/unsigned mismatch
+     1>source\mesh.cpp(480): warning C4018: '<' : signed/unsigned mismatch
+     1>source\mesh.cpp(694): warning C4018: '<' : signed/unsigned mismatch
+     1>source\mesh.cpp(719): warning C4018: '<' : signed/unsigned mismatch
+         primitive.cpp
+     1>source\primitive.cpp(37): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>source\primitive.cpp(83): warning C4101: 'c' : unreferenced local variable
+     1>source\primitive.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(169): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(187): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(212): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(258): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>source\primitive.cpp(406): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>source\primitive.cpp(433): warning C4018: '<' : signed/unsigned mismatch
+         simulation.cpp
+     1>e:\aulas de cg\backup fisica - nunca delete - roda direto\external_dependencies\eigen\src/Core/ProductBase.h(90): warning C4308: negative integral constant converted to unsigned type
+                 e:\aulas de cg\backup fisica - nunca delete - roda direto\external_dependencies\eigen\src/SparseCore/SparseDenseProduct.h(260) : see reference to class template instantiation 'Eigen::ProductBase<Eigen::SparseTimeDenseProduct<Lhs,Rhs>,Lhs,Rhs>' being compiled
+                 with
+                 [
+                     Lhs=Eigen::SparseMatrix<ScalarType,0,int>
+         ,            Rhs=Eigen::Matrix<double,-1,1,0,-1,1>
+                 ]
+                 source\simulation.cpp(122) : see reference to class template instantiation 'Eigen::SparseTimeDenseProduct<Lhs,Rhs>' being compiled
+                 with
+                 [
+                     Lhs=Eigen::SparseMatrix<ScalarType,0,int>
+         ,            Rhs=Eigen::Matrix<double,-1,1,0,-1,1>
+                 ]
+     1>e:\aulas de cg\backup fisica - nunca delete - roda direto\external_dependencies\eigen\src/Core/ProductBase.h(90): warning C4307: '*' : integral constant overflow
+         D:\Stuff\Programas\Visual Studio 12\VC\bin\CL.exe /c /I../../external_dependencies/glew/include /I../../external_dependencies/freeglut/include /I../../external_dependencies/glm /I../../external_dependencies/Eigen /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt source\stb_image.c
+         stb_image.c
+       Link:
+         D:\Stuff\Programas\Visual Studio 12\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AULAS DE CG\backup fisica - nunca delete - roda direto\TudoQueEuSei - fisica\Release\my_project.exe" /NOLOGO /LIBPATH:../../external_dependencies/glew/lib /LIBPATH:../../external_dependencies/freeglut/lib glew32.lib glu32.lib opengl32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\AULAS DE CG\backup fisica - nunca delete - roda direto\TudoQueEuSei - fisica\Release\my_project.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AULAS DE CG\backup fisica - nunca delete - roda direto\TudoQueEuSei - fisica\Release\my_project.lib" /MACHINE:X86 /SAFESEH Release\camera.obj
+         Release\constraint.obj
+         Release\glsl_wrapper.obj
+         Release\main.obj
+         Release\math_headers.obj
+         Release\mesh.obj
+         Release\primitive.obj
+         Release\simulation.obj
+         Release\stb_image.obj
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewActiveTexture
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewDetachShader
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewUniformMatrix4fv
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewDeleteBuffers
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewIsBuffer
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewDeleteProgram
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewUniform1i
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+     1>glsl_wrapper.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glutCreateWindowWithExit@8
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutReshapeWindow@8
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glutInitWithExit@12
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glewInit@0
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutMotionFunc@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutGetModifiers@0
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutSwapBuffers@0
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutInitContextProfile@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutInitContextVersion@8
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutReshapeFunc@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutGet@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutInitDisplayMode@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutMouseFunc@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutIdleFunc@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutKeyboardFunc@4
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutMainLoop@0
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutInitWindowSize@8
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutPostRedisplay@0
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glutDisplayFunc@4
+     1>mesh.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+     1>mesh.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+     1>mesh.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+     1>mesh.obj : error LNK2001: unresolved external symbol __imp____glewDisableVertexAttribArray
+     1>mesh.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+     1>E:\AULAS DE CG\backup fisica - nunca delete - roda direto\TudoQueEuSei - fisica\Release\my_project.exe : fatal error LNK1120: 46 unresolved externals
+     1>Done Building Project "E:\AULAS DE CG\backup fisica - nunca delete - roda direto\TudoQueEuSei - fisica\tudoqeusei\tudoqeusei.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.08

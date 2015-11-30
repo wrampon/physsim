@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Config Files">
+      <UniqueIdentifier>{85f716f3-f36d-47fa-ac1f-907b2f26f3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared_headers">
+      <UniqueIdentifier>{9c0ce90f-2836-428f-9357-26a090c28fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{160d11af-08d8-4512-bdd5-c26bca2354a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{0e6092cd-9d60-49d5-997f-c7f97a530a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\Camera">
+      <UniqueIdentifier>{adfba473-7776-4db0-9092-f27e2a70b3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL - arquivos de shader">
+      <UniqueIdentifier>{14cc05da-64ef-4f1b-a451-c54848076b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\Shaders - inicializacao">
+      <UniqueIdentifier>{d1462254-e915-44c4-8c2a-b7a6ab87bf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\Shaders - inicializacao\Leitor de imagem">
+      <UniqueIdentifier>{b71f37b9-9353-4479-8817-bb4193962cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulation">
+      <UniqueIdentifier>{6e873b48-d4fc-448d-b59e-65e90aead908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math_headers.cpp">
+      <Filter>Source Files\shared_headers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mesh.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\primitive.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\camera.cpp">
+      <Filter>Source Files\framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glsl_wrapper.cpp">
+      <Filter>Source Files\framework\Shaders - inicializacao</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stb_image.c">
+      <Filter>Source Files\framework\Shaders - inicializacao\Leitor de imagem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\constraint.cpp">
+      <Filter>Source Files\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulation.cpp">
+      <Filter>Source Files\simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\opengl_headers.h">
+      <Filter>Source Files\shared_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math_headers.h">
+      <Filter>Source Files\shared_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mesh.h">
+      <Filter>Source Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\primitive.h">
+      <Filter>Source Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\global_headers.h">
+      <Filter>Source Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\camera.h">
+      <Filter>Source Files\framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\glsl_wrapper.h">
+      <Filter>Source Files\framework\Shaders - inicializacao</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stb_image.h">
+      <Filter>Source Files\framework\Shaders - inicializacao\Leitor de imagem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\constraint.h">
+      <Filter>Source Files\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\simulation.h">
+      <Filter>Source Files\simulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\frag.glsl">
+      <Filter>GLSL - arquivos de shader</Filter>
+    </None>
+    <None Include="shaders\vert.glsl">
+      <Filter>GLSL - arquivos de shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
